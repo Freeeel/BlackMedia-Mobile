@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FeedbackActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/cosmos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.503" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+        android:id="@+id/logotype"
+        android:layout_width="wrap_content"
+        android:layout_height="200px"
+        android:src="@drawable/logo"
+        android:onClick="btnMain"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/logotype"
+            android:layout_above="@id/footer2"
+            app:layout_constraintBottom_toTopOf="@id/footer2">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="   Яна Ульянкина"
+                    android:drawableLeft="@drawable/otziv"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:layout_marginLeft="8dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ребята, смело пользуйтесь услугами этой компании! Специалисты умнички! Все выполняют вовремя! Я очень довольна! Помогали и помогают с продвижением группы и продаж вк и инсте благодаря им, продажи повысились!!!"
+                    android:textSize="14sp"
+                    android:textColor="#E6E6E6"
+                    android:layout_marginLeft="8dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="   Анфиноген Москаль"
+                    android:drawableLeft="@drawable/otziv1"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="36dp"
+                    android:textSize="24sp"
+                    android:layout_marginLeft="8dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Прекрасная команда профессионалов, работаем уже больше года, нареканий нет. Выполняют работу качественно, быстро, вовремя. Всем советую."
+                    android:textSize="14sp"
+                    android:textColor="#E6E6E6"
+                    android:layout_marginLeft="8dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="   Иван Пономарев"
+                    android:drawableLeft="@drawable/otziv2"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="36dp"
+                    android:textSize="24sp"
+                    android:layout_marginLeft="8dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Доброго времени суток!И так, скажу своё мнение про данную компанию!Создал маломальскую группу в вк по страхованию(занимаюсь 2 года страхованием,решил продвигать свои услуги в интернете),потихоньку по маленьку крутил,должного результата не было......потом написал сотрудник данной компании и предложил сотрудничество,с оплатой по факту выполнения работ.Данное предложение заинтересовало и я согласился сотрудничать,через 2 месяца это принесло свои плоды,что в инстаграме, что в вк!Очень были рады таким результатом!И креатив и дизайн на высшем уровне,красивые посты,хорошее оформление! Ах да,еще сайтик нам сделали по адекватной цене,в общем 10 из 10,советую!"
+                    android:textSize="14sp"
+                    android:textColor="#E6E6E6"
+                    android:layout_marginLeft="8dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="   Дарья Иванцова"
+                    android:drawableLeft="@drawable/otziv3"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="36dp"
+                    android:textSize="24sp"
+                    android:layout_marginLeft="8dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="РЕБЯТА!!!! У нас сложная ниша, поиск, выкуп, и доставка товаров из Китая. SMM Агентство BLACKMEDIA нам сделали очень хороший трафик! Мы в восторге. Аудитория приходит нормальная, целевая. Все уже с опытом и какими-то расчетами обращаются, а не диванные предприниматели. И что очень важно! Это всего-навсего на 2 работающих креатива и на 3000 рублей в две недели! Выражаю огромную благодарность. Отдельная благодарность Егору!"
+                    android:textSize="14sp"
+                    android:textColor="#E6E6E6"
+                    android:layout_marginLeft="8dp"/>
+                <Button
+                    android:id="@+id/leave_review"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Оставить отзыв"
+                    android:textColor="#FFFFFF"
+                    android:onClick="send_otziv"
+                    android:backgroundTint="#4027AD"
+                    android:layout_marginLeft="100dp"/>
+            </LinearLayout>
+        </ScrollView>
+
+        <ImageView
+            android:id="@+id/footer2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/footer_1"
+            android:scaleType="fitXY"
+            android:layout_alignParentBottom="true"/>
+
+            <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:layout_centerInParent="true">
+
+                <Button
+                    android:id="@+id/o_nas"
+                    android:layout_width="81dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/transparent"
+                    android:drawableTop="@drawable/o_nas"
+                    android:text="О нас"
+                    android:textSize="10dp"
+                    android:onClick="btnInfo"
+                    android:layout_marginLeft="10dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/footer2"
+                    app:layout_constraintLeft_toLeftOf="@+id/footer2"
+                    app:layout_constraintRight_toLeftOf="@+id/uslugi"
+                    app:layout_constraintTop_toTopOf="@+id/footer2" />
+
+                <Button
+                    android:id="@+id/information"
+                    android:layout_width="81dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/transparent"
+                    android:drawableTop="@drawable/uslugi_2"
+                    android:text="Услуги"
+                    android:textSize="10dp"
+                    android:onClick="btnUslugi"
+                    app:layout_constraintBottom_toBottomOf="@+id/footer2"
+                    app:layout_constraintLeft_toRightOf="@+id/o_nas"
+                    app:layout_constraintTop_toTopOf="@+id/footer2" />
+
+                <Button
+                    android:id="@+id/feedback"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/transparent"
+                    android:drawableTop="@drawable/feedback"
+                    android:text="Отзывы"
+                    android:textSize="10dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/footer2"
+                    app:layout_constraintLeft_toRightOf="@+id/information"
+                    app:layout_constraintRight_toLeftOf="@+id/contacts"
+                    app:layout_constraintTop_toTopOf="@+id/footer2" />
+
+                <Button
+                    android:id="@+id/contacts"
+                    android:layout_width="97dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/transparent"
+                    android:drawableTop="@drawable/contact"
+                    android:onClick="btnContacts"
+                    android:text="Контакты"
+                    android:textSize="10dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/footer2"
+                    app:layout_constraintLeft_toRightOf="@+id/feedback"
+                    app:layout_constraintRight_toRightOf="@+id/footer2"
+                    app:layout_constraintTop_toTopOf="@+id/footer2" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
