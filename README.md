@@ -1,2 +1,2 @@
 # BlackMedia-Mobile
-Мобильное приложение для компании BlackMedia
+Мобильное приложение под Android для компании BlackMedia
